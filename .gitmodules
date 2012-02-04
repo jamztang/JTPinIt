@@ -1,0 +1,3 @@
+[submodule "Library/NSDataBase64"]
+	path = Library/NSDataBase64
+	url = https://github.com/reklis/NSDataBase64.git

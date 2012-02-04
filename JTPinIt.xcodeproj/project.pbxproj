@@ -18,6 +18,11 @@
 		528D4F8314DAA58D0092F151 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 528D4F6A14DAA58C0092F151 /* Foundation.framework */; };
 		528D4F8B14DAA58D0092F151 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 528D4F8914DAA58D0092F151 /* InfoPlist.strings */; };
 		528D4F8E14DAA58D0092F151 /* JTPinItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D4F8D14DAA58D0092F151 /* JTPinItTests.m */; };
+		528D4F9A14DAA5B10092F151 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D4F9814DAA5B00092F151 /* MainViewController.m */; };
+		528D4F9B14DAA5B10092F151 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 528D4F9914DAA5B10092F151 /* MainViewController.xib */; };
+		528D4F9D14DAA63D0092F151 /* imac.png in Resources */ = {isa = PBXBuildFile; fileRef = 528D4F9C14DAA63D0092F151 /* imac.png */; };
+		528D4FA214DAA7520092F151 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D4FA114DAA7520092F151 /* NSData+Base64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		528D4FA814DAAF0D0092F151 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 528D4FA714DAAF0D0092F151 /* NSString+URLEncoding.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +40,26 @@
 		528D4F6814DAA58C0092F151 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		528D4F6A14DAA58C0092F151 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		528D4F6C14DAA58C0092F151 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		528D4F7014DAA58C0092F151 /* JTPinIt-Info.plist */ = {isa = PBXFileReference; path = "JTPinIt-Info.plist"; sourceTree = "<group>"; };
+		528D4F7014DAA58C0092F151 /* JTPinIt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JTPinIt-Info.plist"; sourceTree = "<group>"; };
 		528D4F7214DAA58C0092F151 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		528D4F7414DAA58C0092F151 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		528D4F7614DAA58C0092F151 /* JTPinIt-Prefix.pch */ = {isa = PBXFileReference; path = "JTPinIt-Prefix.pch"; sourceTree = "<group>"; };
-		528D4F7714DAA58C0092F151 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		528D4F7614DAA58C0092F151 /* JTPinIt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JTPinIt-Prefix.pch"; sourceTree = "<group>"; };
+		528D4F7714DAA58C0092F151 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		528D4F7814DAA58C0092F151 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		528D4F7F14DAA58D0092F151 /* JTPinItTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTPinItTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		528D4F8014DAA58D0092F151 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		528D4F8814DAA58D0092F151 /* JTPinItTests-Info.plist */ = {isa = PBXFileReference; path = "JTPinItTests-Info.plist"; sourceTree = "<group>"; };
+		528D4F8814DAA58D0092F151 /* JTPinItTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JTPinItTests-Info.plist"; sourceTree = "<group>"; };
 		528D4F8A14DAA58D0092F151 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		528D4F8C14DAA58D0092F151 /* JTPinItTests.h */ = {isa = PBXFileReference; path = JTPinItTests.h; sourceTree = "<group>"; };
+		528D4F8C14DAA58D0092F151 /* JTPinItTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTPinItTests.h; sourceTree = "<group>"; };
 		528D4F8D14DAA58D0092F151 /* JTPinItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTPinItTests.m; sourceTree = "<group>"; };
+		528D4F9714DAA5B00092F151 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		528D4F9814DAA5B00092F151 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		528D4F9914DAA5B10092F151 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		528D4F9C14DAA63D0092F151 /* imac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imac.png; sourceTree = "<group>"; };
+		528D4FA014DAA7520092F151 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		528D4FA114DAA7520092F151 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		528D4FA614DAAF0D0092F151 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		528D4FA714DAAF0D0092F151 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +89,7 @@
 		528D4F5914DAA58C0092F151 = {
 			isa = PBXGroup;
 			children = (
+				528D4F9E14DAA7520092F151 /* Library */,
 				528D4F6E14DAA58C0092F151 /* JTPinIt */,
 				528D4F8614DAA58D0092F151 /* JTPinItTests */,
 				528D4F6714DAA58C0092F151 /* Frameworks */,
@@ -108,6 +122,11 @@
 			children = (
 				528D4F7714DAA58C0092F151 /* AppDelegate.h */,
 				528D4F7814DAA58C0092F151 /* AppDelegate.m */,
+				528D4FA614DAAF0D0092F151 /* NSString+URLEncoding.h */,
+				528D4FA714DAAF0D0092F151 /* NSString+URLEncoding.m */,
+				528D4F9714DAA5B00092F151 /* MainViewController.h */,
+				528D4F9814DAA5B00092F151 /* MainViewController.m */,
+				528D4F9914DAA5B10092F151 /* MainViewController.xib */,
 				528D4F6F14DAA58C0092F151 /* Supporting Files */,
 			);
 			path = JTPinIt;
@@ -116,6 +135,7 @@
 		528D4F6F14DAA58C0092F151 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				528D4F9C14DAA63D0092F151 /* imac.png */,
 				528D4F7014DAA58C0092F151 /* JTPinIt-Info.plist */,
 				528D4F7114DAA58C0092F151 /* InfoPlist.strings */,
 				528D4F7414DAA58C0092F151 /* main.m */,
@@ -141,6 +161,23 @@
 				528D4F8914DAA58D0092F151 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		528D4F9E14DAA7520092F151 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				528D4F9F14DAA7520092F151 /* NSDataBase64 */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		528D4F9F14DAA7520092F151 /* NSDataBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				528D4FA014DAA7520092F151 /* NSData+Base64.h */,
+				528D4FA114DAA7520092F151 /* NSData+Base64.m */,
+			);
+			path = NSDataBase64;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				528D4F7314DAA58C0092F151 /* InfoPlist.strings in Resources */,
+				528D4F9B14DAA5B10092F151 /* MainViewController.xib in Resources */,
+				528D4F9D14DAA63D0092F151 /* imac.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +289,9 @@
 			files = (
 				528D4F7514DAA58C0092F151 /* main.m in Sources */,
 				528D4F7914DAA58C0092F151 /* AppDelegate.m in Sources */,
+				528D4F9A14DAA5B10092F151 /* MainViewController.m in Sources */,
+				528D4FA214DAA7520092F151 /* NSData+Base64.m in Sources */,
+				528D4FA814DAAF0D0092F151 /* NSString+URLEncoding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +339,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Keith Li (ZMNYK85DYB)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -312,6 +354,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1CA8CFA0-0B9D-4AC6-BFFE-A7C2D73369FF";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -413,6 +456,7 @@
 				528D4F9314DAA58D0092F151 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		528D4F9414DAA58D0092F151 /* Build configuration list for PBXNativeTarget "JTPinItTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +465,7 @@
 				528D4F9614DAA58D0092F151 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
